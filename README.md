@@ -68,34 +68,7 @@
 - [x] Proxy.
 - [x] Switch from horizontal to vertical tab bar.
 
-## Privacy
 
-No personal information will be saved
-
-Sessions will persist using the [partition:persist](https://electronjs.org/docs/api/webview-tag#partition) attribute for Webviews.
-So every time you open Rambox, your sessions will keep alive until you remove the service.
-
-Sync feature use Auth0 for Single Sign On & Token Based Authentication and to store the services that user is using (and the configuration for each service).
-You are always welcome to check the code! ;)
-
-## Donations
-
-| Type             | URL/Wallet                                                                                 |
-| ---------------- | :----------------------------------------------------------------------------------------: |
-| Credit Cards     | [HERE](https://rambox.app/donate.html) |
-| Cryptocurrencies | [HERE](https://www.vaulty.io/v/b6480279-af28-4855-868c-17e5cb0ae7fa)                       |
-
-## Translations
-
-Help us translate Rambox on <https://crowdin.com/project/rambox/invite>.
-
-## [Install on Linux - Steps](https://github.com/ramboxapp/community-edition/wiki/Install-on-Linux)
-
-## [Contributing](./CONTRIBUTING.md)
-
-Want to report a bug, request a feature, contribute to or translate Rambox?
-We need all the help we can get!
-Fork and work!
 
 ### Quickstart
 
@@ -105,16 +78,4 @@ cd rambox
 npm install
 sencha app watch
 npm start
-```
 
-See [Contributing.md](./CONTRIBUTING.md) for more detailed information about getting set up.
-
----
-
-## Disclosure
-
-Rambox is not affiliated with any of the messaging apps offered.
-
-## Licence
-
-[GNU GPL v3](https://github.com/ramboxapp/community-edition/blob/master/LICENSE)
