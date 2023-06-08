@@ -39,9 +39,10 @@
 ### Quickstart
 
 ```shell
-git clone https://github.com/saenzramiro/rambox.git
-cd rambox
+clone the repo -> git clone https://github.com/itsnotme11q/hackathon.git
+cd <cloned folder>
 npm install
+## need to download sencha on the local
 sencha app watch
 npm start
 
