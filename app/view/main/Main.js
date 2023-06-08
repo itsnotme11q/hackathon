@@ -259,18 +259,16 @@ Ext.define('Rambox.view.main.Main', {
 				]
 			}
 			,bbar: {
-				xtype: 'toolbar'
-				,cls: 'deprecation'
+				xtype: ''
+				,cls: ''
 				,items: [
-					'<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <b>This version of Rambox is no longer supported.</b> We highly recommend that you update to the new version of Rambox which has a free plan with all the features you already use and much more!'
-					,'->'
 					,{
-						 xtype: 'button'
-						,text: 'Migrate now'
+						 xtype: ''
+						,text: 'Walmart App'
 						,handler: function(btn) {
-							btn.setText('Downloading...');
-							btn.setDisabled(true);
-							Rambox.app.checkUpdate();
+							// btn.setText('Downloading...');
+							// btn.setDisabled(true);
+							// Rambox.app.checkUpdate();
 						}
 					}
 				]
